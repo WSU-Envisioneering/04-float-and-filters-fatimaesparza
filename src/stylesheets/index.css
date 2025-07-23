@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: rgb(98, 91, 202);
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+    padding: .5rem;
+}
+header,footer{
+text-align: center;
+background-color: blueviolet;
+padding: 1em 2em 1em 2em;
+border-radius: 1em;
+}
+nav a{
+  color: rgb(69, 195, 218);
+font-weight: bolder;
+}
+section{
+    width: 70%;
+    margin: 1em auto;
+    background-color: azure;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 5px 5px black;
+
+}
+img{
+    max-width: 300px;
+    filter: grayscale(1.5);
+}
+img:hover{
+    filter:blur(1px)
+}
+main{
+    background:radial-gradient(black);
+}
+.transform :hover{
+    transform: 2.5s ease-in-out, background 2s linear 0.5s;
+    transform: rotate(360deg) scale(120%);
+}
